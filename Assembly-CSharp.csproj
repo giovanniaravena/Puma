@@ -71,6 +71,7 @@
      <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Final Taiga Forest\Autor_note.txt" />
      <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
