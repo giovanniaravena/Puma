@@ -108,6 +108,7 @@ public class CharacterController2D : MonoBehaviour
 			if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
 			{
 				crouch = true;
+                Debug.Log("Hay un objeto que está tocando el techo del puma");
 			}
 		}
 
