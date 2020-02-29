@@ -52,9 +52,9 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (Input.GetButtonDown("Fire1"))
 		{
-			ManaBar.mana.TrySpendMana(50);
-			//attack1 = true; /*para evitar conflicto en el evento OnBorder*/
-			if(animator.GetBool("IsJumping") || animator.GetBool("IsAttack1_Jump") ){
+            ManaBar.mana.TrySpendMana(35); // cada vez que se utiliza gasta 35 pts de maná
+            //attack1 = true; /*para evitar conflicto en el evento OnBorder*/
+            if (animator.GetBool("IsJumping") || animator.GetBool("IsAttack1_Jump") ){
 				animator.SetBool("IsJumping",false);
 				animator.SetBool("IsAttack1_Jump",true);
 				//Debug.Log(animator.GetBool("IsJumping"));

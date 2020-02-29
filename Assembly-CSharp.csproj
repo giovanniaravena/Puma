@@ -62,11 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HUD\HealthBar\HealthBar.cs" />
-    <Compile Include="Assets\HUD\ManaBar\ManaBar.cs" />
     <Compile Include="Assets\Script\Game\Parallax\parallax.cs" />
     <Compile Include="Assets\Script\Game\Parallax\parallax1.cs" />
+    <Compile Include="Assets\Script\Game\PauseMenu\PauseMenu.cs" />
     <Compile Include="Assets\Script\Player\CharacterController2D.cs" />
     <Compile Include="Assets\Script\Player\Health.cs" />
+    <Compile Include="Assets\Script\Player\ManaBar.cs" />
     <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Script\StartMenu\MainMenu.cs" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
