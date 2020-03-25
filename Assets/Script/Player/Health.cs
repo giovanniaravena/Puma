@@ -26,7 +26,13 @@ public class Health : MonoBehaviour
             //animar puma recibiendo daño
         }
 
-    }    
+    }   
+
+    public void getDamage(int dmg)
+    {
+        Life -= dmg;
+        HealthBar.Health = Life;
+    }
 /*
     public void OnCollisionEnter2D(Collider2D col)
     {

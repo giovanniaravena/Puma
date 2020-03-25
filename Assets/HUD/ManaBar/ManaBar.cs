@@ -53,7 +53,8 @@ public class Mana {
     private float manaRegenAmount;    
 
     public Mana(){
-        manaAmount = 0;
+        
+        manaAmount = 80;
         manaRegenAmount = 10f;
     }
 
@@ -62,10 +63,12 @@ public class Mana {
         manaAmount = Mathf.Clamp(manaAmount, 0f, MANA_MAX);
     }
 
-    public void TrySpendMana(int amount){
+    public bool TrySpendMana(int amount){
         if (manaAmount >= amount){
             manaAmount -= amount;
+            return true;
         }
+        return false;
     }
 
     public float GetManaNormalized(){

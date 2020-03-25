@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
+    public char direction = 'R';
+    public bool slash = false;
 	
 	public CharacterController2D controller;
 	public Animator animator;
 	public ManaBar ManaBar;	
-
+    public HealthBar HealthBar;
 	public float runSpeed = 40f;
 
 	float horizontalMove = 0f;
@@ -30,9 +32,11 @@ public class PlayerMovement : MonoBehaviour {
 		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 		if(horizontalMove>0){
 			lastDirection=1;
+            direction = 'R';
 		}
 		if(horizontalMove<0){
 			lastDirection=-1;
+            direction = 'L';
 		}
 
 		if (Input.GetButtonDown("Jump"))
@@ -52,12 +56,15 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (Input.GetButtonDown("Fire1"))
 		{
-			ManaBar.mana.TrySpendMana(50);
-			//attack1 = true; /*para evitar conflicto en el evento OnBorder*/
+            if (slash) return;
+            if (crouch) return;
+            if (!ManaBar.mana.TrySpendMana(20)) return;
+            slash = true;
+            Invoke("Attack",0.2f);
 			if(animator.GetBool("IsJumping") || animator.GetBool("IsAttack1_Jump") ){
 				animator.SetBool("IsJumping",false);
 				animator.SetBool("IsAttack1_Jump",true);
-				//Debug.Log(animator.GetBool("IsJumping"));
+				
 			}else if(animator.GetFloat("Speed") < 0.01 && !animator.GetBool("IsCrouching")){
 				animator.SetTrigger("Attack1_Idle");
 			}else if(animator.GetFloat("Speed") > 0.01 && !animator.GetBool("IsCrouching")){
@@ -67,6 +74,23 @@ public class PlayerMovement : MonoBehaviour {
 		}
 
 	}
+
+    
+    void Attack()
+    {
+        Vector3 position = Vector3.zero;
+        if (direction == 'R')
+        {
+            position.Set(transform.position.x + 2, transform.position.y - 0.25f, 1);
+        }
+        else
+        {
+            position.Set(transform.position.x - 2, transform.position.y - 0.25f, 1);
+        }
+        GameObject obj = Instantiate(Resources.Load("Slash") as GameObject, position, Quaternion.identity);
+        obj.GetComponent<SlashController>().setPlayer(this);
+
+    }
 
 	void FixedUpdate ()
 	{
@@ -93,6 +117,23 @@ public class PlayerMovement : MonoBehaviour {
 		//attack1 = false; 
 	}
 
+    public void GetDamage(int amount)
+    {
+        HealthBar.SetHealth(amount);
+        StartCoroutine(Blink());
+    }
+
+    IEnumerator Blink()
+    {
+        for (int n = 0; n < 6; n++)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                
+            yield return new WaitForSeconds(0.01f);
+            this.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
 
 
 	
