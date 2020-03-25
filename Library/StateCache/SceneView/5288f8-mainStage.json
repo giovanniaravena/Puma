@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":63.185543060302737,"y":3.974938154220581,"z":-0.1507982313632965},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":18.877592086791993,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":24.717424392700197,"y":3.306046724319458,"z":97.05563354492188},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":7.973568916320801,"orthographic":true}
+>>>>>>> PumaSantiago
