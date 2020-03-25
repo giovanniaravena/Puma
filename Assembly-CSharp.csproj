@@ -61,7 +61,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\HUD\HealthBar\HealthBar.cs" />
+=======
+    <Compile Include="Assets\GameOverController.cs" />
+    <Compile Include="Assets\HUD\HealthBar\HealthBar.cs" />
+    <Compile Include="Assets\Script\Enemies\BoaController.cs" />
+    <Compile Include="Assets\Script\Enemies\EnemyController.cs" />
+    <Compile Include="Assets\Script\Enemies\PoisonController.cs" />
+    <Compile Include="Assets\Script\Enemies\SnakeController.cs" />
+>>>>>>> enemyCombatSystem+GameOver
     <Compile Include="Assets\Script\Game\Parallax\parallax.cs" />
     <Compile Include="Assets\Script\Game\Parallax\parallax1.cs" />
     <Compile Include="Assets\Script\Game\PauseMenu\PauseMenu.cs" />
@@ -69,6 +78,10 @@
     <Compile Include="Assets\Script\Player\Health.cs" />
     <Compile Include="Assets\Script\Player\ManaBar.cs" />
     <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Script\Player\SlashController.cs" />
+>>>>>>> enemyCombatSystem+GameOver
     <Compile Include="Assets\Script\StartMenu\MainMenu.cs" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -312,8 +325,19 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.7f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:/Users/breco/Desktop/gio-puma/Puma/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+=======
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/breco/Desktop/gio-puma/Puma/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/breco/Desktop/gio-puma/Puma/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/breco/Desktop/gio-puma/Puma/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+>>>>>>> enemyCombatSystem+GameOver
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

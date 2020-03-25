@@ -1,4 +1,10 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Map.unity
   isLoaded: 1
   isActive: 1
+=======
+- path: Assets/GameOver.unity
+  isLoaded: 0
+  isActive: 0
+>>>>>>> enemyCombatSystem+GameOver

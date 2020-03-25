@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":5.022319793701172,"y":1.522256851196289,"z":-9.96484375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":18.18842887878418,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.369931161403656,"y":-0.18373757600784303,"z":-10.008657455444336},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":22.85062026977539,"orthographic":true}
+>>>>>>> enemyCombatSystem+GameOver

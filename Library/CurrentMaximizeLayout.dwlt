@@ -15,17 +15,26 @@ MonoBehaviour:
   m_Children:
   - {fileID: 3}
   - {fileID: 8}
-  - {fileID: 19}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1366
     height: 635
   m_MinSize: {x: 917, y: 498}
   m_MaxSize: {x: 22012, y: 14048}
   vertical: 0
   controlID: 168
+=======
+    width: 1522
+    height: 717
+  m_MinSize: {x: 713, y: 498}
+  m_MaxSize: {x: 18008, y: 14048}
+  vertical: 0
+  controlID: 125
+>>>>>>> enemyCombatSystem+GameOver
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -47,10 +56,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 827.2
     y: 80.8
     width: 265
     height: 339
+=======
+    x: 2
+    y: 22
+    width: 1022
+    height: 387
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -62,10 +78,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -106
     m_HBaseRangeMax: 106
     m_VBaseRangeMin: -59.600002
     m_VBaseRangeMax: 59.600002
+=======
+    m_HBaseRangeMin: -263.2
+    m_HBaseRangeMax: 263.2
+    m_VBaseRangeMin: -148
+    m_VBaseRangeMax: 148
+>>>>>>> enemyCombatSystem+GameOver
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -74,7 +97,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -83,25 +106,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 265
       height: 322
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 132.5, y: 161}
+=======
+      width: 1022
+      height: 370
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 511, y: 185}
+>>>>>>> enemyCombatSystem+GameOver
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -132.5
       y: -161
       width: 265
       height: 322
+=======
+      x: -511
+      y: -185
+      width: 1022
+      height: 370
+>>>>>>> enemyCombatSystem+GameOver
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 331.25, y: 423.75}
+=======
+  m_LastWindowPixelSize: {x: 1277.5, y: 483.75}
+>>>>>>> enemyCombatSystem+GameOver
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -126,11 +167,19 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 232
+<<<<<<< HEAD
     height: 635
   m_MinSize: {x: 232, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
   controlID: 58
+=======
+    height: 717
+  m_MinSize: {x: 232, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 39
+>>>>>>> enemyCombatSystem+GameOver
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,9 +198,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 232
+<<<<<<< HEAD
     height: 224
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    height: 227
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+>>>>>>> enemyCombatSystem+GameOver
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -181,14 +236,22 @@ MonoBehaviour:
     x: 7.2000003
     y: 80.8
     width: 230
+<<<<<<< HEAD
     height: 204
+=======
+    height: 207
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 44f7ffff
+=======
+      m_ExpandedIDs: 56f9ffff
+>>>>>>> enemyCombatSystem+GameOver
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -228,11 +291,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 224
     width: 232
     height: 411
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
+=======
+    y: 227
+    width: 232
+    height: 490
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> enemyCombatSystem+GameOver
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -260,9 +331,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 7.2000003
+<<<<<<< HEAD
     y: 304.80002
     width: 230
     height: 391
+=======
+    y: 307.2
+    width: 230
+    height: 470
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -287,7 +364,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 02070000
     m_LastClickedID: 1794
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a43600000c370000743700008c370000be3700005c380000703800003e3900004e3900007a3900007e390000043a0000163a00004c3a0000543a0000c03a0000cc3a0000e83a0000403b0000603b0000e83d0000ea3d0000ec3d0000ee3d0000f03d0000f23d0000f43d0000f63d0000f83d0000fa3d0000fc3d0000fe3d0000003e0000023e0000
+=======
+    m_ExpandedIDs: 00000000b2290000d6290000da290000c62a0000d62a0000ea2a0000382b00002c2c00005c2d00005e2d0000862d00008a2d0000f42d0000662e00006e2e0000ba2f0000c62f0000f22f0000fe2f00008a3000004231000054310000283300002a3300002c3300002e33000030330000323300003433000036330000383300003a3300003c3300003e3300004033000042330000
+>>>>>>> enemyCombatSystem+GameOver
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -312,10 +393,17 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 191}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff00000000a43600000c370000743700008c370000be3700005c380000703800003e3900004e3900007a3900007e390000043a0000163a00004c3a0000543a0000c03a0000cc3a0000e83a0000403b0000603b0000e83d0000ea3d0000ec3d0000ee3d0000f03d0000f23d0000f43d0000f63d0000f83d0000fa3d0000fc3d0000fe3d0000003e0000023e0000
+=======
+    scrollPos: {x: 0, y: 224}
+    m_SelectedIDs: e4f7ffff
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000b2290000d6290000da2900003e2a0000c62a0000d62a0000ea2a0000382b00002c2c00005c2d00005e2d0000862d00008a2d0000f42d0000662e00006e2e0000ba2f0000c62f0000f22f0000fe2f00008a3000004231000054310000283300002a3300002c3300002e33000030330000323300003433000036330000383300003a3300003c3300003e3300004033000042330000
+>>>>>>> enemyCombatSystem+GameOver
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -340,8 +428,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+=======
+    m_SelectedInstanceIDs: e4f7ffff
+    m_LastClickedInstanceID: -2076
+>>>>>>> enemyCombatSystem+GameOver
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -384,17 +477,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 9}
-  - {fileID: 14}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 232
     y: 0
+<<<<<<< HEAD
     width: 857
     height: 635
   m_MinSize: {x: 408, y: 448}
   m_MaxSize: {x: 8008, y: 8048}
   vertical: 1
   controlID: 141
+=======
+    width: 1013
+    height: 717
+  m_MinSize: {x: 204, y: 348}
+  m_MaxSize: {x: 4004, y: 8048}
+  vertical: 1
+  controlID: 126
+>>>>>>> enemyCombatSystem+GameOver
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,6 +505,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -428,6 +531,8 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> enemyCombatSystem+GameOver
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -437,17 +542,23 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 588
     height: 359
+=======
+    width: 1013
+    height: 403
+>>>>>>> enemyCombatSystem+GameOver
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 11}
+  m_ActualView: {fileID: 2}
   m_Panes:
+  - {fileID: 10}
   - {fileID: 11}
-  - {fileID: 12}
-  m_Selected: 0
+  - {fileID: 2}
+  m_Selected: 2
   m_LastSelected: 0
---- !u!114 &11
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,8 +580,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 239.2
     y: 80.8
+<<<<<<< HEAD
     width: 584
     height: 339
+=======
+    width: 1009
+    height: 383
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 5288f81a5e631094f876c720cb074f8c
   m_SceneLighting: 1
@@ -478,9 +594,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 5.02232, y: 1.5222569, z: -9.964844}
     speed: 2
     m_Value: {x: 5.02232, y: 1.5222569, z: -9.964844}
+=======
+    m_Target: {x: 0.36993116, y: -0.18373758, z: -10.008657}
+    speed: 2
+    m_Value: {x: 0.36993116, y: -0.18373758, z: -10.008657}
+>>>>>>> enemyCombatSystem+GameOver
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -512,9 +634,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 18.188429
     speed: 2
     m_Value: 18.188429
+=======
+    m_Target: 22.85062
+    speed: 2
+    m_Value: 22.85062
+>>>>>>> enemyCombatSystem+GameOver
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -526,7 +654,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &12
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -556,6 +684,7 @@ MonoBehaviour:
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
   m_SplitterFlex: 0.2
+<<<<<<< HEAD
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -583,6 +712,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
+=======
+--- !u!114 &12
+>>>>>>> enemyCombatSystem+GameOver
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -598,20 +730,37 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 359
     width: 857
     height: 276
   m_MinSize: {x: 244, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 18}
+=======
+    y: 403
+    width: 1013
+    height: 314
+  m_MinSize: {x: 104, y: 124}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 13}
+>>>>>>> enemyCombatSystem+GameOver
   m_Panes:
+  - {fileID: 13}
+  - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
+<<<<<<< HEAD
   - {fileID: 17}
   - {fileID: 18}
   m_Selected: 3
   m_LastSelected: 0
 --- !u!114 &15
+=======
+  m_Selected: 0
+  m_LastSelected: 3
+--- !u!114 &13
+>>>>>>> enemyCombatSystem+GameOver
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -632,12 +781,19 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 232
     y: 432
     width: 853
     height: 256
+=======
+    x: 239.2
+    y: 483.2
+    width: 1009
+    height: 294
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &16
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -665,8 +821,13 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
   m_LastSelectedObjectID: 36174
 --- !u!114 &17
+=======
+  m_LastSelectedObjectID: -102204
+--- !u!114 &15
+>>>>>>> enemyCombatSystem+GameOver
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -687,16 +848,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1782
-    y: 586
-    width: 1228
-    height: 414
+    x: 232
+    y: 484
+    width: 1022
+    height: 300
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1107316794029893056, guid: 4d6a22597b5102c4996d4c98ffcbb230, type: 2}
     - {fileID: 1107702457588062084, guid: a25589a0a40841547a32d4120fbaa796, type: 2}
     - {fileID: 1107402514178768764, guid: 7a86cc746a19bc845a6f068f4d62ad7b, type: 2}
+    - {fileID: 1107758274511080382, guid: cfd33fcb8b181de4496bd7ae739c6cb6, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.46290535
       e01: 0
@@ -746,11 +908,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 4d6a22597b5102c4996d4c98ffcbb230,
+  m_AnimatorController: {fileID: 9100000, guid: cfd33fcb8b181de4496bd7ae739c6cb6,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107316794029893056, guid: 4d6a22597b5102c4996d4c98ffcbb230,
+  - m_Target: {fileID: 1107758274511080382, guid: cfd33fcb8b181de4496bd7ae739c6cb6,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -764,7 +942,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &18
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -784,18 +962,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 239.2
     y: 439.2
     width: 853
     height: 256
+=======
+    x: 232
+    y: 484
+    width: 1022
+    height: 300
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
   m_PreviewResizer:
     m_CachedPref: 50
     m_ControlHash: 510661707
     m_PrefName: Preview_TilemapBrushInspector
-  m_Palette: {fileID: 2781144434986229160, guid: 569a299ec62edd4499f6ac73aa03d5bb,
-    type: 3}
---- !u!114 &19
+  m_Palette: {fileID: 1716472133097450, guid: 94f7bd47609714a42a882b92637f9ca1, type: 3}
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -810,6 +994,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1089
     y: 0
     width: 277
@@ -817,11 +1002,20 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
+=======
+    x: 1245
+    y: 0
+    width: 277
+    height: 717
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+>>>>>>> enemyCombatSystem+GameOver
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &20
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -842,10 +1036,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1096
     y: 80.8
     width: 275
     height: 615
+=======
+    x: 1252
+    y: 80.8
+    width: 275
+    height: 697
+>>>>>>> enemyCombatSystem+GameOver
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
