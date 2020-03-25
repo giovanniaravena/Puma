@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class HealthBar : MonoBehaviour
     {
         Health = 100f;
         rectTransform = GetComponent<RectTransform>();
+        foreach (Transform item in this.transform)
+        {
+            rectTransform = item.GetComponent<RectTransform>();
+        }
     }
 
     // Update is called once per frame
@@ -20,5 +25,15 @@ public class HealthBar : MonoBehaviour
     {
         float UpdateLife = Mathf.MoveTowards(rectTransform.rect.height, Health, 5.0f);
         rectTransform.sizeDelta = new Vector2(100f, Mathf.Clamp(UpdateLife, 0.0f, 100f));
+        //GameObject child = HealthBar.G
+    }
+    public void SetHealth(float amount)
+    {
+        Debug.Log("SET HEALTH WIITH " + amount + ".");
+        Health += amount;
+        if(Health <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }

@@ -25,7 +25,11 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 75252
+=======
+  controlID: 75014
+>>>>>>> Stashed changes
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,7 +134,11 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 75234
+=======
+  controlID: 74996
+>>>>>>> Stashed changes
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,8 +158,8 @@ MonoBehaviour:
     y: 0
     width: 232
     height: 231
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -312,7 +320,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 454}
+=======
+    scrollPos: {x: 0, y: 710}
+>>>>>>> Stashed changes
     m_SelectedIDs: c470feff
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff00000000ec3200008c3a0000ca3a0000263b00003e3b00005a3b00006c3b0000d83b0000f83b00007c3c00007e3c0000963c0000e83c0000303d0000363d0000523d0000643d0000883d00008e3d0000e23d00005e3e0000ca3e0000e23e00005440000056400000584000005a4000005c4000005e40000060400000624000006440000066400000684000006a4000006c4000006e40000084400000f44200000043000046430000c8430000
@@ -394,7 +406,11 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 348}
   m_MaxSize: {x: 4004, y: 8048}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 75167
+=======
+  controlID: 74929
+>>>>>>> Stashed changes
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -551,8 +567,13 @@ MonoBehaviour:
     y: 411
     width: 1026
     height: 320
+<<<<<<< Updated upstream
   m_MinSize: {x: 104, y: 124}
   m_MaxSize: {x: 4004, y: 4024}
+=======
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -697,6 +718,7 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+<<<<<<< Updated upstream
     - e00: 1
       e01: 0
       e02: 0
@@ -705,6 +727,16 @@ MonoBehaviour:
       e11: 1
       e12: 0
       e13: 0
+=======
+    - e00: 0.6568421
+      e01: 0
+      e02: 0
+      e03: -17.842102
+      e10: 0
+      e11: 0.6568421
+      e12: 0
+      e13: 74.66842
+>>>>>>> Stashed changes
       e20: 0
       e21: 0
       e22: 1
