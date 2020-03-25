@@ -61,16 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-    <Compile Include="Assets\HUD\HealthBar\HealthBar.cs" />
-=======
     <Compile Include="Assets\GameOverController.cs" />
     <Compile Include="Assets\HUD\HealthBar\HealthBar.cs" />
     <Compile Include="Assets\Script\Enemies\BoaController.cs" />
     <Compile Include="Assets\Script\Enemies\EnemyController.cs" />
     <Compile Include="Assets\Script\Enemies\PoisonController.cs" />
     <Compile Include="Assets\Script\Enemies\SnakeController.cs" />
->>>>>>> Stashed changes
     <Compile Include="Assets\Script\Game\Parallax\parallax.cs" />
     <Compile Include="Assets\Script\Game\Parallax\parallax1.cs" />
     <Compile Include="Assets\Script\Game\PauseMenu\PauseMenu.cs" />
@@ -78,10 +74,7 @@
     <Compile Include="Assets\Script\Player\Health.cs" />
     <Compile Include="Assets\Script\Player\ManaBar.cs" />
     <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
-<<<<<<< Updated upstream
-=======
     <Compile Include="Assets\Script\Player\SlashController.cs" />
->>>>>>> Stashed changes
     <Compile Include="Assets\Script\StartMenu\MainMenu.cs" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
