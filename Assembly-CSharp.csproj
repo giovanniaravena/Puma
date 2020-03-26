@@ -62,8 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BatController.cs" />
+    <Compile Include="Assets\BeaverController.cs" />
     <Compile Include="Assets\FinishOrb.cs" />
     <Compile Include="Assets\FinishOrbController.cs" />
+    <Compile Include="Assets\FrogController.cs" />
     <Compile Include="Assets\GameOverController.cs" />
     <Compile Include="Assets\HUD\HealthBar\HealthBar.cs" />
     <Compile Include="Assets\Script\Enemies\BoaController.cs" />

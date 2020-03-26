@@ -12,7 +12,7 @@ public class HealthBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Health = 1000f;
+        Health = 100f;
         rectTransform = GetComponent<RectTransform>();
         foreach (Transform item in this.transform)
         {
