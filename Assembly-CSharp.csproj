@@ -82,7 +82,6 @@
     <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Script\Player\SlashController.cs" />
     <Compile Include="Assets\Script\StartMenu\MainMenu.cs" />
-    <Compile Include="Assets\Script\Transitions\Trans 1.cs" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Background\StartMenu\Text\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
