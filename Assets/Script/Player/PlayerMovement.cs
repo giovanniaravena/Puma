@@ -65,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (slash) return;
             if (crouch) return;
+            if (ManaBar == null) return;
             if (!ManaBar.mana.TrySpendMana(SLASH_COST)) return;
             slash = true;
             Invoke("Attack", 0.2f);
