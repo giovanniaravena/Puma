@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Eclipse.unity
     guid: fc2f79912d68f2746a9bdc83d6dae08e
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: 39bc357f5e5097046821932183381867
+  - enabled: 1
+    path: Assets/Map.unity
+    guid: 9a81595c8ce4d2547975e45da8beb0f0
   m_configObjects: {}

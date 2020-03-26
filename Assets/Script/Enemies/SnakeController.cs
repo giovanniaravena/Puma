@@ -45,7 +45,7 @@ public class SnakeController : MonoBehaviour
     void Update()
     {
         
-            if (!controller.CanUpdate()) return;
+        if (!controller.CanUpdate()) return;
         if (controller.Reset())
         {
             myBody.velocity = new Vector3(0f, 0f, 0f);

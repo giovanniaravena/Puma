@@ -7,7 +7,7 @@ public class BoaController : MonoBehaviour
     //STATS
     int ATK = 10;
 
-    public int WAIT = 400;
+    int WAIT = 150;
     int THROW_COUNTER = 0;
     
     Transform myTrans;
